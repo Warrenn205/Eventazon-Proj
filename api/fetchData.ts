@@ -100,4 +100,6 @@ const fetchInformation: NextApiHandler = authenticate(async (req: AuthenticatedR
   }
 });
 
+// fetch
+
 export default fetchInformation;
